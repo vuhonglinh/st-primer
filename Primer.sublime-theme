@@ -560,7 +560,7 @@
         // "layer0.texture": "",
         "layer0.tint": [255, 255, 255], // 01
         "layer0.opacity": 0,
-        "layer0.inner_margin": [1, 1],
+        "layer0.inner_margin": [0, 0],
         "layer1.texture": "",
         "layer1.tint": [238, 238, 238], // -00
         "layer1.draw_center": false,
@@ -572,7 +572,7 @@
         "class": "tree_row",
         "attributes": ["selected"],
         "layer0.opacity": 1,
-        "layer0.tint": [255, 255, 255] // 01
+        "layer0.tint": [247, 247, 247] // 01
     },
     // Sidebar row selected
     {

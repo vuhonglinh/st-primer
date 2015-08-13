@@ -31,7 +31,7 @@
 			<dict>
 				<!-- Gutter background -->
 				<key>background</key>
-				<string>#FFFFFF</string>
+				<string>#f7f7f7</string>
 				<key>caret</key>
 				<string>#333333</string>
 				<!-- Gutter text color -->
@@ -61,7 +61,7 @@
 		  <key>settings</key>
 		  <dict>
 		  <key>background</key>
-		  <string>#ffffff</string>
+		  <string>#f7f7f7</string>
 			<key>foreground</key>
 			<string>#333333</string>
 		  </dict>
