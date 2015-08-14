@@ -561,18 +561,26 @@
         "layer0.tint": [255, 255, 255], // 01
         "layer0.opacity": 0,
         "layer0.inner_margin": [0, 0],
-        "layer1.texture": "",
-        "layer1.tint": [238, 238, 238], // -00
-        "layer1.draw_center": false,
-        "layer1.inner_margin": [0, 0, 0, 1],
-        "layer1.opacity": 1
+        // "layer1.texture": "",
+        // "layer1.tint": [238, 238, 238], // -00
+        // "layer1.draw_center": false,
+        "layer1.inner_margin": [22, 8, 0, 0],
+        "layer1.texture": "Theme - Primer/Primer/tree_highlight.png",
+        "layer1.opacity": 0,//{ "target": 0.0, "speed": 5.0, "interpolation": "smoothstep" },
+        "layer2.opacity": 0
     },
     // Sidebar row selected
     {
         "class": "tree_row",
         "attributes": ["selected"],
         "layer0.opacity": 1,
-        "layer0.tint": [247, 247, 247] // 01
+        "layer0.tint": [247, 247, 247], // 01
+        "layer1.opacity": 1,//{ "target": 1.0, "speed": 5.0, "interpolation": "smoothstep" }
+        "layer2.texture": "",
+        "layer2.tint": [238, 238, 238], // -00
+        "layer2.draw_center": false,
+        "layer2.inner_margin": [0, 1, 0, 1],
+        "layer2.opacity": 1
     },
     // Sidebar row selected
     {
@@ -580,11 +588,11 @@
         "attributes": ["hover"],
         "layer0.opacity": 1,
         "layer0.tint": [245, 245, 245], // 01
-        "layer1.texture": "",
-        "layer1.tint": [238, 238, 238], // -00
-        "layer1.draw_center": false,
-        "layer1.inner_margin": [0, 0, 1, 1],
-        "layer1.opacity": 1
+        "layer2.texture": "",
+        "layer2.tint": [238, 238, 238], // -00
+        "layer2.draw_center": false,
+        "layer2.inner_margin": [0, 1, 0, 1],
+        "layer2.opacity": 1
     },
     // Sidebar heading
     {
@@ -843,7 +851,7 @@
         "layer2.texture": "",
         "layer2.tint": [221, 221, 221], // -00
         "layer2.draw_center": false,
-        "layer2.inner_margin": [0, 0, 0, 1],
+        "layer2.inner_margin": [0, 0, 0, 0],
         "layer2.opacity": 1
     },
 
@@ -864,11 +872,11 @@
         "layer0.tint": [248, 248, 248], // 01
         "layer0.inner_margin": 8,
         "layer0.opacity": 1,
-        "layer1.texture": "",
-        "layer1.tint": [221, 221, 221], // -00
-        "layer1.draw_center": false,
-        "layer1.inner_margin": [0, 0, 0, 1],
-        "layer1.opacity": 1
+        // "layer1.texture": "",
+        // "layer1.tint": [221, 221, 221], // -00
+        // "layer1.draw_center": false,
+        // "layer1.inner_margin": [0, 0, 0, 0],
+        // "layer1.opacity": 1
     },
     {
         "class": "quick_panel_row",
@@ -966,12 +974,12 @@
         "class": "mini_quick_panel_row",
         // "layer0.texture": "",
         "layer0.tint": [248, 248, 248], // 01
-        "layer0.opacity": 1,
-        "layer1.texture": "",
-        "layer1.tint": [221, 221, 221], // -00
-        "layer1.draw_center": false,
-        "layer1.inner_margin": [0, 0, 0, 1],
-        "layer1.opacity": 1
+        "layer0.opacity": 1
+        // "layer1.texture": "",
+        // "layer1.tint": [221, 221, 221], // -00
+        // "layer1.draw_center": false,
+        // "layer1.inner_margin": [0, 0, 0, 0],
+        // "layer1.opacity": 1
     },
     {
         "class": "mini_quick_panel_row",
