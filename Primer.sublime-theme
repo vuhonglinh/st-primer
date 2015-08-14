@@ -851,7 +851,7 @@
         "layer2.texture": "",
         "layer2.tint": [221, 221, 221], // -00
         "layer2.draw_center": false,
-        "layer2.inner_margin": [0, 0, 0, 0],
+        "layer2.inner_margin": [0, 0, 0, 1],
         "layer2.opacity": 1
     },
 
